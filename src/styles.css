@@ -1,0 +1,179 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background-color: #141414;
+}
+
+.cabecalho-logo {
+    height: 40px;
+}
+
+.cabecalho-nav a {
+    margin: 0 15px;
+    color: #fff;
+}
+
+.cabecalho-nav a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+       width: 100%;
+       height: 200px;
+       position: relative;
+       height: 20vh;
+       background-image: url('/src/assets/banner.png');
+       background-size: cover;
+       background-position: center;   
+       z-index: 1;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: #ffffff;
+    }
+
+.banner-destaque {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-image: url('/src/assets/banner.png');
+    background-size: cover;
+    background-position: center;   
+    align-items: center;
+    justify-content: center;
+ }
+
+.banner-content {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.banner-descricao {
+    font-size: 1.25rem;
+}
+
+.categorias {
+    flex: 1;
+    padding: 20px;
+}
+
+.categoria {
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.categoria-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video-card {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.video-card iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-card h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+.video-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.video-card-title {
+    font-size: 1rem;
+    margin: 10px 0 5px 0;
+}
+
+.video-card-acao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 10 px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-editar {
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+.button-delete {
+    background-color: #ff4500;
+    color: #fff;
+}
+
+.button:houver {
+    opacity: 0.8;
+
+}
+
+.banner {
+    position: relative;
+    height: 20vh;
+    background-image: url('/src/assets/banner.png');
+    background-size: cover;
+    background-position: center;
+}

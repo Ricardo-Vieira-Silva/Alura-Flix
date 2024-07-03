@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+#AluraFlix
+**AluraFlix** é um site inspirado na Netflix, desenvolvido com React, que permite aos usuários visualizar e adicionar vídeos. Este projeto utiliza um db.json como banco de dados para armazenar informações dos vídeos.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###Tecnologias Utilizadas
+•	React
+•	JSON Server
+•	HTML5
+•	CSS3
+•	JavaScript
 
-## Available Scripts
+###Funcionalidades
+•	Exibir vídeos de diferentes categorias
+•	Adicionar novos vídeos ao banco de dados
+•	Navegar entre diferentes páginas (Home, Novo Vídeo)
 
-In the project directory, you can run:
+###Estrutura do Projeto
+aluraflix/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   ├── banner.png
+│   │   └── logo.png
+│   ├── componentes/
+│   │   ├── Cabecalho.js
+│   │   ├── Categoria.js
+│   │   └── Video.js
+│   ├── paginas/
+│   │   ├── HomePage.js
+│   │   └── NovoVideo.js
+│   ├── services/
+│   │   └── videoServicos.js
+│   ├── styles/
+│   │   ├── Cabecalho.css
+│   │   ├── Categoria.css
+│   │   ├── HomePage.css
+│   │   └── NovoVideo.css
+│   ├── App.js
+│   ├── index.js
+│   └── db.json
+└── package.json
 
-### `npm start`
+###Como Executar o Projeto
+1.	Clone o repositório:
+git clone https://github.com/seu-usuario/aluraflix.git
+2.	Navegue até o diretório do projeto:
+cd aluraflix
+3.	Instale as dependências:
+npm install
+4.	Inicie o servidor JSON:
+json-server --watch db.json --port 3001
+5.	Inicie a aplicação React:
+npm start
+6.	Acesse o projeto no navegador:
+http://localhost:3000
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###Estrutura do db.json
+{
+  "videos": [
+    { 
+      "id": 1, 
+      "titulo": "Video 1", 
+      "url": "https://www.youtube.com/embed/CaTbfdsVydE?si=SlH6cSaxKzLN-2SZ", 
+      "categoria": "Frontend",
+      "descricao": "Descrição do Video 1"
+    }
+  ]
+}
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###Contribuição
+Sinta-se à vontade para contribuir com o projeto. Você pode fazer um fork do repositório, criar uma branch para suas alterações e enviar um pull request.
+1.	Faça um fork do projeto
+2.	Crie uma branch para sua feature (git checkout -b minha-feature)
+3.	Commit suas mudanças (git commit -m 'Adicionar minha feature')
+4.	Push para a branch (git push origin minha-feature)
+5.	Abra um pull request
 
-### `npm test`
+###Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,0 +1,108 @@
+{
+  "videos": [
+    { "id": 1,
+      "titulo": "Como testar seu Front-end? com Mario Souto",
+      "url": "https://www.youtube.com/embed/CaTbfdsVydE?si=SlH6cSaxKzLN-2SZ", 
+      "categoria": "Frontend", 
+      "descricao": "Descrição do vídeo 1"
+    },
+
+    { "id": 2,
+      "titulo": "O que faz uma desenvolvedora front-end?",
+      "url": "https://www.youtube.com/embed/ZY3-MFxVdEw?si=33IFoTW9sFGf4oQ5", 
+      "categoria": "Frontend" , 
+      "descricao": "Descrição do vídeo 2"
+    },
+
+    { "id": 3,
+      "titulo": "Métricas para o Front End com Mario Souto",
+      "url": "https://www.youtube.com/embed/iVNR-6v8lZU?si=NxbaN9VCQrDEAqCK", 
+      "categoria": "Frontend" , 
+      "descricao": "Descrição do vídeo 3"
+    },
+
+    { "id": 4,
+      "titulo": "O que faz uma desenvolvedora Back-end? com Juliana Amoasei",
+      "url": "https://www.youtube.com/embed/fiPfvylj6rk?si=343VkrjS6COeNsi4", 
+      "categoria": "Backend" , 
+      "descricao": "Descrição do vídeo 4"
+    },
+
+   { "id": 5,
+      "titulo": "Kotlin, Micronaut e Back-end com Alberto Sousa",
+      "url": "https://www.youtube.com/embed/PV9FoHvVE8k?si=nEQrAT2ZxkN0fl15", 
+      "categoria": "Backend" , 
+      "descricao": "Descrição do vídeo 5"
+    },
+
+   { "id": 6,
+      "titulo": "A MELHOR linguagem de programação com Fabio Akita",
+      "url": "https://www.youtube.com/embed/imB0QVoNrGc?si=TDB2pEi3PtaY5yjr", 
+      "categoria": "Backend" , 
+      "descricao": "Descrição do vídeo 6"
+    },
+
+    { "id": 7,
+    "titulo": "Educação corporativa com Camila Achutti",
+    "url": "https://www.youtube.com/embed/IGFSiBJIXFQ?si=GXmPb3eheh0ynISR", 
+    "categoria": "Inovação" , 
+      "descricao": "Descrição do vídeo 7"
+   },
+
+   { "id": 8,
+    "titulo": "Como funcionam os navegadores Web?",
+    "url": "https://www.youtube.com/embed/kDy62zaCHZE?si=PykWfyrUuRZtr5mg", 
+    "categoria": "Inovação" , 
+      "descricao": "Descrição do vídeo 8"
+   },
+
+   { "id": 9,
+    "titulo": "Acessibilidade Web com Charles Assunção",
+    "url": "https://www.youtube.com/embed/MLGFctEtmYQ?si=XMWk3NeM6u62licV", 
+    "categoria": "Inovação" , 
+      "descricao": "Descrição do vídeo 9"
+   },
+  
+   { "id": 10,
+    "titulo": "O que é gestão de carreira?",
+    "url": "https://www.youtube.com/embed/unz-EGRNVa0?si=WWw7V4RDoiMy45ux", 
+    "categoria": "Gestão" , 
+      "descricao": "Descrição do vídeo 10"
+   },
+
+   { "id": 11,
+    "titulo": "O que são métodos ágeis?",
+    "url": "https://www.youtube.com/embed/j5mCirZD-0s?si=Cu0I8jVupeg01ZjN", 
+    "categoria": "Gestão" , 
+      "descricao": "Descrição do vídeo 11"
+   },
+
+   { "id": 12,
+    "titulo": "O que são Squads e o modelo Spotify?",
+    "url": "https://www.youtube.com/embed/uGjQLZKoYrw?si=bC6KWpK5Wj-BBq23", 
+    "categoria": "Gestão" , 
+      "descricao": "Descrição do vídeo 12"
+   },
+
+   { "id": 13,
+    "titulo": "Executando código mobile pelo Smartphone",
+    "url": "https://www.youtube.com/embed/U885ON-D_G0?si=XtPtEPXk8brgOWrb", 
+    "categoria": "Mobile" , 
+      "descricao": "Descrição do vídeo 13"
+   },
+
+{ "id": 14,
+    "titulo": "Desenvolvimento Android",
+    "url": "https://www.youtube.com/embed/fWscDFHKgw8?si=tZy_do_-d7xhHsyS", 
+    "categoria": "Mobile" , 
+      "descricao": "Descrição do vídeo 14"
+   },
+
+{ "id": 15,
+    "titulo": "Desmistificando Mobile- Por onde eu começo?",
+    "url": "https://www.youtube.com/embed/2z6f8VN_Pro?si=R202Ff0H_ov1BPOy", 
+    "categoria": "Mobile" , 
+      "descricao": "Descrição do vídeo 15"
+   }
+  ]    
+}
