@@ -2,7 +2,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #141414;
     border-radius: 8px;
 }
 
@@ -29,7 +29,7 @@
 .novo-video-container form textarea {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
 }
 
 .novo-video-container form .buttons {

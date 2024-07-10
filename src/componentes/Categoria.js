@@ -1,5 +1,7 @@
 import React from 'react';
-
+import del from '../assets/delete.png';
+import edit from '../assets/editar.png';
+import '../componentes/Categoria.css';
 function Categoria({ titulo, videos = [] }) {
     return (
         <div className="categoria">
@@ -18,7 +20,25 @@ function Categoria({ titulo, videos = [] }) {
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowFullScreen>
                             </iframe>
-                        </div>
+                            <div className="video-actions">
+                                <img 
+                                    width="8"
+                                    height="18"
+                                    src={edit} 
+                                    alt="Editar" 
+                                    className="icon" 
+                                    onClick={() => alert(`Editar vídeo ${video.id}`)} 
+                                />
+                                <img 
+                                    width="8"
+                                    height="18"
+                                    src={del}
+                                    alt="Deletar" 
+                                    className="icon" 
+                                    onClick={() => alert(`Deletar vídeo ${video.id}`)} 
+                                />
+                            </div>
+                         </div>
                     ))
                 ) : (
                     <p>Não há vídeos nesta categoria.</p>

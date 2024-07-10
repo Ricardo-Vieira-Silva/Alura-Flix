@@ -9,6 +9,21 @@
 }
 
 .categoria.backend {
-    background-color: #98fb98;
+    background-color: hsl(120, 32%, 52%);
+}
+
+.video-actions {
+    display: flex;
+    margin-top: 10px;
+    gap: 120px;
+
+
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
